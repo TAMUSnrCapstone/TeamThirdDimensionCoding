@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1472802545221980}
+  m_IsPrefabAsset: 1
+--- !u!1 &1472802545221980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4318623242782080}
+  - component: {fileID: 114245082510427942}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4318623242782080
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1472802545221980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114245082510427942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1472802545221980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 345fc3aa6c710da4395a501354cc0459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  tools:
+  - {fileID: 1470721460689320, guid: 001c822dd4c50064785bf9dabd89c156, type: 2}
+  - {fileID: 1305241169466446, guid: 729862afb6d81cd47a5b94126b45141b, type: 2}
+  - {fileID: 1019313692827442, guid: ded51997e2fee5b498181f1ede3692a3, type: 2}
+  - {fileID: 1851215918990272, guid: ef2a419e4b6354f4e9c1b03dad7d831e, type: 2}
+  - {fileID: 1910728932864722, guid: cf99be1c8bc86a847a9d63071a9f4df7, type: 2}
+  deleteTool: {fileID: 1193162588758022, guid: 7bd34b2f639c255488aeee805f2f475a, type: 2}
+  leftControl: {fileID: 0}
+  rightControl: {fileID: 0}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  pauseMenu: {fileID: 0}
